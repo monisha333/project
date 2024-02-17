@@ -1,0 +1,147 @@
+
+a{
+    text-decoration: none;
+    color: orange;
+    padding-right:25px ;
+}
+h2{
+    color:red;
+    text-align: start;
+}
+.header
+{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    background-size: cover;
+    background-position: center;
+}
+nav
+{
+    width:440px;
+    height: 60px;
+    justify-content: space-evenly;
+}
+#navlink
+{
+    margin-top: 21px;
+    cursor: pointer;
+}
+#navlink:hover
+{
+    color: white;
+}
+#home
+{
+    height:150px;
+    width:100%;
+    text-align: center;
+    padding-top: 100px;
+}
+h1
+{
+    padding-top: 10px;
+    text-shadow: 2px 2px grey;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+img
+{
+   margin-left: 40px; 
+   border-radius: 50%;
+}
+#bio
+{
+    height:590px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+#resume
+{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px 2px;
+    cursor: pointer;
+    color: orange;
+    border: 2px solid rgba(240, 81, 54);
+    border-radius: 2%;
+    margin-top: 10px;
+}
+hr{
+        width: 500px;
+        margin-bottom: 20px;
+}
+.consm
+{
+    height:500px;
+    width:100%;
+    padding-top: 110px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#skills
+{
+background-color: black;
+height:630px;
+width:100%;
+padding-top: 10px;
+margin-top: 10px;
+margin-bottom: 50px;
+}
+#skills h1
+{
+padding-top: 40px;
+text-align: center;
+color: white;
+}
+.skill
+{
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+}
+progress
+{
+    height: 10px;
+    border-radius: 90%;
+    width: 300px;
+    padding-left: 20px;
+}
+.skills h2
+{
+font-weight: bolder;
+padding-right: 200px;
+}
+#contact
+{
+    height:200px;
+    width:100%;
+}
+#contact h1
+{
+    color:orangered;
+    text-align: center;
+    margin-bottom:40px;
+}
+#contact p{
+    margin-top: 20px;
+    color:orangered;
+    text-align: center;
+}
+#contact img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    margin-right: 6px;
+}
